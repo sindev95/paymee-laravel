@@ -1,0 +1,26 @@
+{
+    "name": "sindev95/paymee",
+    "description": "Payer par cartes bancaire, par carte e-dinar ou avec votre compte Paymee.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sindev95\\Paymee\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yassine Kraiem",
+            "email": "kamisama953@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sindev95\\Paymee\\PaymeeServiceProvider"
+            ]
+        }
+    }
+}
